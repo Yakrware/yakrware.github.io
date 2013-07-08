@@ -1,0 +1,117 @@
+<html>
+  <head>
+    <style>
+      body{
+        margin: 0px;
+      }
+      
+      canvas{
+        overflow: hidden;
+        background: #ACF;
+      }
+      
+      .header{
+        position: absolute;
+        font-family: 'Numans';
+        top: 0;
+        left: 0;
+        right: 0;
+        height: 400px;
+        background: url("banner.jpg") no-repeat;
+        background-size: cover;
+        color: #EFEFEF;
+        transition:top 0s;
+      }
+      
+      .header .business{
+        position: absolute;
+        top: 0;
+        left: 20px;
+      }
+      
+      .header .projects{
+        position: absolute;
+        top: 15px;
+        right: 30px;
+        max-width: 400px;
+      }
+      
+      .header .projects div{
+        padding-left: 20px;
+      }
+      
+      .header .projects div a:link {color:#CCE;}      /* unvisited link */
+      .header .projects div a:visited {color:#EDE;}  /* visited link */
+      .header .projects div a:hover {color:#EEE;}  /* mouse over link */
+      .header .projects div a:active {color:#EEE;}  /* selected link */
+      
+      .header.hidden{
+        top: -400px;
+        transition: top 2s linear;        
+      }
+      
+      .yakfree-label{
+        position: absolute;
+        font: 20px 'Press Start 2p';
+        color: #333;
+      }
+      
+      .yakfree-label.start{
+        left: 0;
+        right: 0;
+        bottom: 10px;
+        text-align: center;
+      }
+      
+      .yakfree-label.score{
+        top: 10px;
+        left: 10px;
+      }
+      
+      .yakfree-label.high-score{
+        right: 10px;
+        top: 10px;
+      }
+      
+      .yakfree-label.end-game{
+        display:none;
+        top: 400px;
+        left: 0;
+        right: 0;
+        text-align: center;
+      }
+    </style>
+    <link href='http://fonts.googleapis.com/css?family=Numans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Press+Start+2P' rel='stylesheet' type='text/css'>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="yakfree.js"></script>
+  </head>
+  <body>
+    <canvas>
+    </canvas>
+    <div class="yakfree-label start">Press &darr; to start! Use &larr; and &rarr; to navigate.</div>
+    <div class="yakfree-label end-game">Game Over! <a href="#">Reset</a></div>
+    <div class="yakfree-label score">Score:<span>0</span></div>
+    <div class="yakfree-label high-score">High Score:<span>0</span></div>
+    <div class="header">
+      <div class="business">
+        <h1>Yakrware</h1>
+        <h3>Software Consulting and Development</h3>
+      </div>
+      <div class="projects">
+        <h3>Services</h3>
+        <div>Ruby On Rails Development<br/>
+             Technology Consulting<br/>
+             Low-funded Startups
+        </div>
+        <h3>Projects</h3>
+        <div>Sumtimes<br/>
+             <a href="http://www.github.com/yakrware">Yakrware Github</a><br/>
+             <a href="http://www.github.com/kayakyakr">Charles's Github</a>
+        </div>
+        <h3>Contact</h3>
+        <div>Reach me <a href="mailto:charles@yakrware.com">here</a></div>
+      </div>
+    </div>
+  </body>
+</html>
