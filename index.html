@@ -1,18 +1,33 @@
 <html>
   <head>
     <link rel="shortcut icon" href="favicon.ico" />
-    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <style>
-      .picture {
-        padding: 50px 0px;
+      main {
+        margin-top: 60px;
+        margin-bottom: 80px;
+      }
+
+      .banner {
+        padding: 20px;
+        color: white;
+        background: #555 url(banner-md.jpg) no-repeat center bottom;
+        background-size: cover;
+      }
+
+      .banner h1{
+        font-size: 4em;
+        font-weight: bold;
+        margin-top: 10px;
+        margin-bottom: 100px;
       }
     </style>
   </head>
   <body>
-    <nav class="navbar navbar-default" role="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -46,46 +61,56 @@
 
     <main class="container">
       <article id="top" class="row">
-        <h1>Yakrware</h1>
-        <h4>Software Development and Consulting</h4>
+        <div class="banner clearfix">
+          <h1>Yakrware</h1>
 
-        <p>Specializing in low-funded startups and rapid prototyping</p>
+          <strong class="pull-left">Software Development and Consulting</strong>
+          <em class="pull-right">Specializing in low-funded startups and rapid prototyping</em>
+        </div>
       </article>
 
       <article id="services" class="row">
         <h2>Services</h2>
 
-        <h4>Frameworks and languages</h4>
-        <ul>
-          <li>Ruby on Rails</li>
-          <li>NodeJS w/ Locomotive</li>
-          <li>Interactive client side with:
-            <ul>
-              <li>EmberJs</li>
-              <li>Backbone</li>
-              <li>UnderscoreJs</li>
-              <li>D3.js</li>
-              <li>Custom OOP Javascript w/ JQuery</li>
-          </li>
-          <li>Websockets</li>
-          <li>Bootstrap CSS</li>
-        </ul>
+        <div class="col-sm-4">
+          <h4>Frameworks and languages</h4>
+          <ul>
+            <li>Ruby on Rails</li>
+            <li>NodeJS w/ Locomotive</li>
+            <li>Interactive client side with:
+              <ul>
+                <li>EmberJs</li>
+                <li>Backbone</li>
+                <li>UnderscoreJs</li>
+                <li>D3.js</li>
+                <li>Custom OOP Javascript w/ JQuery</li>
+              </ul>
+            </li>
+            <li>Websockets</li>
+            <li>Bootstrap CSS</li>
+          </ul>
+        </div>
 
-        <h4>Databases</h4>
-        <ul>
-          <li>Postgresql</li>
-          <li>MongoDB</li>
-          <li>Redis</li>
-          <li>ElasticSearch</li>
-        </ul>
+        <div class="col-sm-4">
+          <h4>Databases</h4>
+          <ul>
+            <li>Postgresql</li>
+            <li>MongoDB</li>
+            <li>Redis</li>
+            <li>ElasticSearch</li>
+          </ul>
+        </div>
 
-        <h4>Operations</h4>
-        <ul>
-          <li>Linux hosting (Ubuntu)</li>
-          <li>Digital Ocean</li>
-          <li>Amazon S3</li>
-          <li>Git (github, bitbucket, & home server)</li>
-        </ul>
+        <div class="col-sm-4">
+          <h4>Dev-Ops</h4>
+          <ul>
+            <li>Linux hosting (Ubuntu)</li>
+            <li>Digital Ocean</li>
+            <li>Amazon S3</li>
+            <li>Dokku (Docker emulation of Heroku)</li>
+            <li>Git (github, bitbucket, & home server)</li>
+          </ul>
+        </div>
       </article>
 
       <h2>Projects</h2>
@@ -150,10 +175,7 @@
         <h4>Email</h4>
         <p><a href="mailto:info@yakrware.com" target="_top">info@yakrware.com</a></p>
       </article>
-
-      <article class="row picture">
-        <img class="img-responsive" src="banner-md.jpg">
-      </article>
+      <a href="#top" class="pull-right">Top <i class="fa fa-caret-up"></i></a>
     </main>
   </body>
 </html>
