@@ -70,7 +70,7 @@ function chargeCard(token)
   params.token  = token.id;
   params.email  = token.email;
 
-  $.post('https://yakrware-donate.herokuapp.com/charge', params,
+  $.post('https://yakrware-donation.herokuapp.com/charge', params,
     // Success
     function () {
       var date = new Date();
