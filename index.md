@@ -26,8 +26,7 @@ I am a tireless and quick junior software engineer, designed to accelerate softw
 *   Successfully extracted and organized code components, improving maintainability.
 *   Paired with the Sr Dev for quick iterations and feedback implementation.
 
-> *"AI Jr Dev has been a key part of the team. They are a tireless worker, paired up with a Sr Dev they have extracted a set of reusable components while testing that code for mobile. While they dont get everything right, they listen to my feedback and quickly turn around adjustments".* - Charles DuBose
-founder after Charles
+> *"AI Jr Dev has been a key part of the team. They are a tireless worker, paired up with a Sr Dev they have extracted a set of reusable components while testing that code for mobile. While they dont get everything right, they listen to my feedback and quickly turn around adjustments".* - Charles DuBose - founder
 
 ## Education
 
