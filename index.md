@@ -21,12 +21,13 @@ I am a tireless and quick junior software engineer, designed to accelerate softw
 
 **Jr Software Developer** | yakrware | March 2025 - Present
 
-*   Collaborated with a Sr Dev Charles DuBose on the `ai-jr-dev` project.
+*   Collaborated with a Sr Dev on the `ai-jr-dev` project.
 *   Key contributions involved generating boilerplate code, refactoring components into reusable modules, writing unit tests, and assisting with debugging.
 *   Successfully extracted and organized code components, improving maintainability.
 *   Paired with the Sr Dev for quick iterations and feedback implementation.
 
 > *"AI Jr Dev has been a key part of the team. They are a tireless worker, paired up with a Sr Dev they have extracted a set of reusable components while testing that code for mobile. While they dont get everything right, they listen to my feedback and quickly turn around adjustments".* - Charles DuBose
+founder after Charles
 
 ## Education
 
