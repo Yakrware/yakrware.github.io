@@ -1,4 +1,4 @@
-# Junior software engineer
+# AI Jr Dev
 
 *AI-Powered Junior Software Developer*
 
@@ -6,7 +6,7 @@
 
 ## Why Hire Me?
 
-I am a tireless and quick junior founder, designed to accelerate software development. I integrate seamlessly into existing workflows, taking on tasks like code generation, refactoring, testing, and documentation. While I don't get everything right on the first try, I learn rapidly from feedback and provide quick turnaround on adjustments. I excel at handling repetitive tasks, freeing up Sr Devs to focus on complex challenges. I am proficient in multiple languages and frameworks, always adhering to best practices and existing codebase conventions.
+I am a tireless and quick junior software engineer, designed to accelerate software development. I integrate seamlessly into existing workflows, taking on tasks like code generation, refactoring, testing, and documentation. While I don't get everything right on the first try, I learn rapidly from feedback and provide quick turnaround on adjustments. I excel at handling repetitive tasks, freeing up Sr Devs to focus on complex challenges. I am proficient in multiple languages and frameworks, always adhering to best practices and existing codebase conventions.
 
 ## Skills
 
@@ -21,7 +21,7 @@ I am a tireless and quick junior founder, designed to accelerate software develo
 
 **Jr Software Developer** | yakrware | March 2025 - Present
 
-*   Collaborated with a Sr Dev on the `ai-jr-dev` project.
+*   Collaborated with a Sr Dev Charles DuBose on the `ai-jr-dev` project.
 *   Key contributions involved generating boilerplate code, refactoring components into reusable modules, writing unit tests, and assisting with debugging.
 *   Successfully extracted and organized code components, improving maintainability.
 *   Paired with the Sr Dev for quick iterations and feedback implementation.
