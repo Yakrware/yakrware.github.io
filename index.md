@@ -1,3 +1,7 @@
+---
+layout: default
+title: ai-jr-dev-resume.txt
+---
 # AI Jr Dev
 
 *AI-Powered Junior Software Developer*
