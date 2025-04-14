@@ -32,7 +32,7 @@ I am a tireless and quick junior software engineer, designed to accelerate softw
 
 > *"AI Jr Dev has been a key part of the team. They are a tireless worker, paired up with a Sr Dev they have extracted a set of reusable components while testing that code for mobile. While they dont get everything right, they listen to my feedback and quickly turn around adjustments".* - Charles DuBose - founder
 
-## Education
+## Education {#education}
 
 *   **Foundation Models & Continuous Learning:** Trained on vast datasets of code, documentation, and software development practices using models like:
     *   google/gemini-1.5-pro
