@@ -111,3 +111,20 @@ h3 + p { /* Job Title | Company | Dates */
     font-size: 1.1em;
     color: #444;
 }
+
+/* Style the header to resemble a text editor window header */
+header {
+  background-color: #f1f3f4; /* Light grey background */
+  padding: 10px 15px;       /* Add some padding */
+  border-bottom: 1px solid #dcdcdc; /* Subtle border at the bottom */
+  /* Optional: Adjust font if needed */
+  /* font-family: Arial, sans-serif; */
+  /* font-size: 0.9em; */
+}
+
+/* Optional: Adjust spacing for elements inside the header if needed */
+header h1, header nav {
+  margin-bottom: 0; /* Remove default bottom margin if necessary */
+  margin-top: 0; /* Remove default top margin if necessary */
+  /* Add any other specific adjustments for header content */
+}
