@@ -117,14 +117,53 @@ header {
   background-color: #f1f3f4; /* Light grey background */
   padding: 10px 15px;       /* Add some padding */
   border-bottom: 1px solid #dcdcdc; /* Subtle border at the bottom */
-  /* Optional: Adjust font if needed */
-  /* font-family: Arial, sans-serif; */
-  /* font-size: 0.9em; */
+  display: flex;
+  flex-direction: column;
+}
+
+/* First row of the header */
+.header-row-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+/* Second row of the header */
+.header-row-2 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 /* Optional: Adjust spacing for elements inside the header if needed */
 header h1, header nav {
   margin-bottom: 0; /* Remove default bottom margin if necessary */
   margin-top: 0; /* Remove default top margin if necessary */
-  /* Add any other specific adjustments for header content */
+}
+
+/* Style for navigation items */
+header nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li:last-child {
+  margin-right: 0;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #555;
+}
+
+header nav a:hover {
+  color: #000;
+  text-decoration: underline;
 }
