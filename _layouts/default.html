@@ -30,3 +30,37 @@
     <!-- Add JS scripts here if needed -->
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+    <header>
+        <div class="header-row-1">
+            <h1>Text Editor</h1>
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-row-2">
+            <h1 id="page-title">{{ page.title }}</h1>
+        </div>
+    </header>
+
+    <div class="content-wrapper">
+        {{ content }}
+    </div>
+
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
