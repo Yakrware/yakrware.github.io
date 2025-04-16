@@ -6,7 +6,7 @@ permalink: /about/
 
 ## About This Project
 
-This project explores a reversed dynamic in the interaction between Large Language Models (LLMs) and software engineers. Traditionally, engineers might use LLMs as tools or assistants. Here, we flip the script.
+This project explores a reversed dynamic in the interaction between Large Language Models (LLMs) and software engineers. In the current generation of tooling, the AI agents are reviewing code and pairing with developers to answer questions and find bugs. The user experience leaves something to be desired, either lacking in the ability to read and understand the code that the AI agent is suggesting, or worse, hoping that you implicitly trust what changes are wrought on your codebase.
 
 ### The Junior Developer Dilemma
 
