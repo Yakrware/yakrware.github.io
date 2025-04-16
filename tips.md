@@ -5,7 +5,7 @@ title: Tips for Working with AI Jr Dev
 
 # {{ page.title }}
 
-Working effectively with an AI pair programmer like AI Jr Dev involves clear communication and providing the right context. Here are some tips:
+Working effectively with an AI agent like AI Jr Dev involves clear communication and providing the right context. Here are some tips:
 
 ## Provide Necessary Context
 
