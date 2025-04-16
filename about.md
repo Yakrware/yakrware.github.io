@@ -18,4 +18,4 @@ This application reverses the relationship while fitting it into a common workfl
 
 ### Goals and Vision
 
-The goal is to investigate how this reversed interaction model can leverage the strengths of both AI (broad knowledge, pattern recognition, instruction generation) and human engineers (deep expertise, critical thinking, implementation skills). Can this lead to more efficient workflows, better knowledge transfer, or novel ways of building software? This project serves as a testbed for these ideas.
+The goal is to investigate how this reversed interaction model can leverage the strengths of both AI (broad knowledge, pattern recognition, instruction generation) and human engineers (deep expertise, critical thinking, implementation skills). Can this lead to more efficient workflows, better knowledge transfer, or novel ways of building software? This project serves as a testbed for these ideas. At the same time, it's proven to be an effective way of writing code.
