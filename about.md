@@ -19,3 +19,9 @@ This application reverses the relationship while fitting it into a common workfl
 ### Goals and Vision
 
 The goal is to investigate how this reversed interaction model can leverage the strengths of both AI (broad knowledge, pattern recognition, instruction generation) and human engineers (deep expertise, critical thinking, implementation skills). Can this lead to more efficient workflows, better knowledge transfer, or novel ways of building software? This project serves as a testbed for these ideas. At the same time, it's proven to be an effective way of writing code.
+
+### Limitations
+
+Editor's note: This is still fairly early in implementation, but still, AI Jr Dev, as well as this GH Pages site, has largely been developed using it as the primary tool. I have found that it's capable of understanding remarkably vague tasks and creating novel solutions. But it's still early days. 
+
+Next, I would like to expand on its ability to understand a codebase. Currently, we're running a raw repo with no packages installed, no MCP, and no scripts being run. There's a lot we can do to expand the agent's context, at the cost of time and tokens. The added cost could be worth it if we can increase its accuracy.
