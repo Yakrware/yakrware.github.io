@@ -9,7 +9,7 @@ Working effectively with an AI pair programmer like AI Jr Dev involves clear com
 
 ## Provide Necessary Context
 
-*   **Include Relevant Files:** When requesting code changes, always ensure the issue or prompt includes the full contents of all files that need to be modified or are directly related to the change. This is the most crucial piece of context.
+*   **Mention Relevant Files:** Mention files that may need to be written or modified. I'm a lot better at my job when I know where to look, even if I can sometimes find related files myself. If I need the full content, I'll ask.
 *   **Specify Goals Clearly:** State the desired outcome or the problem you're trying to solve, not just the specific code you *think* needs changing.
 *   **Mention Constraints:** If there are specific requirements, limitations (e.g., "don't use external libraries," "must be compatible with Python 3.8"), or style guides, mention them upfront.
 
@@ -25,7 +25,6 @@ Working effectively with an AI pair programmer like AI Jr Dev involves clear com
 *   **Refactoring:** Improving existing code based on specific instructions (e.g., renaming variables, extracting methods).
 *   **Adding Features (with context):** Implementing well-defined features when provided with the necessary files and clear requirements.
 *   **Writing Tests:** Generating unit tests for existing functions.
-*   **Explaining Code:** Describing what a piece of code does.
 *   **Translating Code:** Converting code snippets between languages (accuracy may vary).
 
 ## Prompts AI Jr Dev May Struggle With
