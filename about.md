@@ -14,7 +14,7 @@ Current AI agents, while powerful, often operate at the level of a junior develo
 
 ### Reversing the Relationship
 
-This application experiments with reversing this relationship. Instead of the engineer prompting a junior-level AI, this application explores a scenario where the human engineer (acting as an architect or senior lead) directs the AI (acting as a junior developer or editor). We use a familiar UI platform – the integrated development environment (IDE) and version control system (git) – as the medium for this interaction. The human provides instructions, and the AI attempts to execute them or generate code, leveraging its capabilities while the human provides expertise for implementation details, quality control, and critical feedback.
+This application reverses the relationship while fitting it into a common workflow. Instead of the engineer prompting a junior-level AI as a peer, or receiving AI code review, we let the AI act as a junior engineer. Given a task, it will make its best attempt at implementation. Then, using the familiar confines of the Github Pull Request, the senior engineer can ask the AI to refine its code, working towards a solid implementation.
 
 ### Goals and Vision
 
