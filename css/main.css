@@ -167,3 +167,27 @@ header nav a:hover {
   color: #000;
   text-decoration: underline;
 }
+
+/* Call to Action Button/Link */
+.call-to-action {
+    text-align: center; /* Center the link */
+    margin-top: 1em; /* Space above the CTA */
+    margin-bottom: 2em; /* Space below the CTA, before the horizontal rule */
+}
+
+.call-to-action a {
+    display: inline-block; /* Allow padding and background */
+    padding: 8px 15px; /* Add some padding */
+    background-color: #e7f3ff; /* Light blue background */
+    color: #0056b3; /* Blue text color */
+    border: 1px solid #b3d7ff; /* Blue border */
+    border-radius: 4px; /* Rounded corners */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Make text bold */
+    transition: background-color 0.2s, color 0.2s; /* Smooth hover effect */
+}
+
+.call-to-action a:hover {
+    background-color: #cce5ff; /* Slightly darker blue on hover */
+    color: #003d80; /* Darker text on hover */
+}
