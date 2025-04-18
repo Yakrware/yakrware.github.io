@@ -7,7 +7,7 @@ title: ai-jr-dev-resume.txt
 *AI-Powered Junior Software Developer*
 
 <div class="call-to-action">
-[**Install the AI Jr Dev GitHub App**](https://github.com/apps/ai-jr-dev)
+  <a href="https://github.com/apps/ai-jr-dev"><strong>Install the AI Jr Dev GitHub App</strong></a>
 </div>
 
 ---
